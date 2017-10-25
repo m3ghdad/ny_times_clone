@@ -6,26 +6,41 @@ section, img, div, h2, p, form,
 fieldset, label, input, textarea,
 span, article, footer, time, small {
   // margin:
+  margin: 0;
   // padding:
+  padding: 0;
   // border:
+  border: 0;
   // outline:
+  outline: 0;
   // font:
+  font: inherit;
   // color:
+  color: inherit;
   // text-align:
+  text-align: inherit;
   // text-decoration:
+  text-decoration: inherit;
   // vertical-align:
+  vertical-align: inherit;
   // box-sizing:
+  box-sizing: inherit;
   // background:
+  background: transparent;
 }
 
 ol, ul {
   // list-style:
+  list-style: none;
 }
 
 img {
   // display:
+  display: block;
   // width:
+  width: 100%;
   // height:
+  height: auto;
 }
 
 input[type="password"],
@@ -46,10 +61,14 @@ button {
 button,
 input[type="submit"] {
   // cursor:
+  cursor: pointer;
 }
 
 /* Clearfix */
 
 .group:after {
   // ...
+  content: "";
+  display: block;
+  clear: both;
 }
