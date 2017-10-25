@@ -23,15 +23,17 @@ button {
 	// font-weight:
 	font-weight: bold;
 	// padding:
-
+	padding: 7px 9px;
 	// border-radius:
-
+	border-radius: 3px;
 	// transition:
+	transition: background-color 0.3s;
 	// font-family:
 	font-family: $sans-serif;
 	// text-transform:
 	text-transform: uppercase;
 	// font-size:
+	font-size: 13px;
 	// text-align:
 	text-align: center;
 }

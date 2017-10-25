@@ -1,34 +1,46 @@
 .main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
 
 }
 
 .left-nav > ul,
 .right-nav > ul {
-
+  display: flex;
+  vertical-align: top;
 }
 
 .left-nav > ul > li {
+  font-family: $sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 7px 9px;
 
 }
 
 .right-nav > ul > li {
-
+  margin: 2px;
 }
 
 .right-nav > ul > li:last-of-type {
+  font-size: 20px;
 
 }
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
+  background-color: $lightest-gray;
 
 }
 
 .left-nav span {
-
+  margin: 10px;
 }
 
 
 .right-nav i {
-
+  margin-left: 5px;
+  margin-top: 2px;
 }
