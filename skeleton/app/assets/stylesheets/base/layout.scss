@@ -7,25 +7,40 @@ html {
 
 body {
 	// ...
+	width: 80%;
+	margin: 0 auto;
+	font-family: $serif;
+	font-size: 12px;
 }
 
 button {
 	// background-color:
+	background-color: $light-blue;
 	// border-color:
+	border-color: $dark-gray;
 	// color:
+	color: white;
 	// font-weight:
+	font-weight: bold;
 	// padding:
+
 	// border-radius:
+
 	// transition:
 	// font-family:
+	font-family: $sans-serif;
 	// text-transform:
+	text-transform: uppercase;
 	// font-size:
 	// text-align:
+	text-align: center;
 }
 
 button:hover {
 	// background-color:
+	background-color: $blue;
 	// border-color:
+	border-color: $darkest-blue;
 }
 
 /*
